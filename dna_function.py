@@ -15,11 +15,6 @@ def GC_content(sequence):
     GC_content= (total_GC/total_len)*100
     return GC_content
 
-#dna="ATGCTAGCGTA"
-#print(transcribe(dna))
-#print(count_nucleotide(dna))
-#print(GC_content(dna))
-
 def reverse_complement(sequence):
     complement_map={'A':'T','T':'A','G':'C','C':'G'}
     complement_seq=""
@@ -28,19 +23,6 @@ def reverse_complement(sequence):
         result = complement_seq[::-1]
     return result
 
-#print(reverse_complement(dna))    
-
-'''sequences = ["ATGCTAGCGTA", "GGGCCCAAATTT", "ATATATGCGC"]
-for seq in sequences:
-    print(seq,"GC_content:",GC_content(seq))
-    print(seq,"reverse_complement",reverse_complement(seq))
-
-with open("sample.txt","r") as f:
-    dna=f.read()
-print("sequence:",dna)    
-print("GC_content:",GC_content(dna))  
-print("reverse_complement:",reverse_complement(dna)) 
-print("Rna:", transcribe(dna))'''
 
 def read_fasta(filename):
     with open(filename,"r") as file:
@@ -51,9 +33,3 @@ def read_fasta(filename):
                 continue
             seq = seq + line
     return seq 
-
-#content=read_fasta("sample.fasta")
-#print(content) 
-#print(GC_content(content))   
-#print(reverse_complement(content))
-#print(transcribe(content))
