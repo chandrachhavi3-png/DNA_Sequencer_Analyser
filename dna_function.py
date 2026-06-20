@@ -20,9 +20,8 @@ def reverse_complement(sequence):
     complement_seq=""
     for base in sequence:
         complement_seq = complement_seq + complement_map[base]
-        result = complement_seq[::-1]
+    result = complement_seq[::-1]
     return result
-
 
 def read_fasta(filename):
     with open(filename,"r") as file:
