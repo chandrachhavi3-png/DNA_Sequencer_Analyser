@@ -76,9 +76,9 @@ Reads a FASTA file line by line, skips the header line starting with ">", strips
 
 ## How to run locally
 
-Install dependencies: pip install biopython matplotlib streamlit
-Run the web app: streamlit run app.py
-Run the terminal analysis: python project1_final.py
+- Install dependencies: pip install biopython matplotlib streamlit
+- Run the web app: streamlit run app.py
+- Run the terminal analysis: python project1_final.py
 
 ---
 
