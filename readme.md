@@ -1,6 +1,6 @@
 # DNA Sequence Analyser
 
-**Live App:** [Try the DNA Sequence Analyser here](paste_your_streamlit_url_here)
+**Live App:** [Try the DNA Sequence Analyser here](https://dnasequenceranalyser-nldbqga9zagwzzjsrvns5h.streamlit.app/)
 
 ---
 
