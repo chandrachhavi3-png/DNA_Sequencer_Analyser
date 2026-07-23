@@ -79,6 +79,7 @@ Reads a FASTA file line by line, skips the header line starting with ">", strips
 Install dependencies: pip install biopython matplotlib streamlit
 Run the web app: streamlit run app.py
 Run the terminal analysis: python project1_final.py
+
 ---
 
 ## Validated With
