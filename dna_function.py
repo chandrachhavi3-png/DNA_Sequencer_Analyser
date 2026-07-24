@@ -1,3 +1,5 @@
+# Core DNA analysis functions
+
 def transcribe(sequence):
     rna=sequence.replace("T","U")
     return rna
