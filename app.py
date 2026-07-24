@@ -1,3 +1,5 @@
+#Streamlit web app - upload any FASTA file for instant DNA analysis
+
 import streamlit as st
 import matplotlib.pyplot as plt
 from dna_function import count_nucleotide, GC_content, reverse_complement, transcribe
