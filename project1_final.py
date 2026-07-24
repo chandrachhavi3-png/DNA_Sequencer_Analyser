@@ -1,4 +1,4 @@
-# importing the required libraries for reading fasta files, calculating gc content and plotting
+# importing the required libraries for reading the fasta files, calculating gc content and plotting
 from Bio import SeqIO
 from Bio.SeqUtils import gc_fraction
 import matplotlib.pyplot as plt
